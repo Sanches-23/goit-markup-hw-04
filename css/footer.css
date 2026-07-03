@@ -3,6 +3,12 @@
     padding: 100px 0;
 }
 
+.footer-container{
+    display: flex;
+    gap: 120px;
+
+}
+
 .footer-info {
     display: flex;
     flex-direction: column;
@@ -17,5 +23,17 @@
 
 .footer-desc {
     color: #F4F4FD;
+    line-height: 1.5;
+}
+
+.footer-socials{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-socials-title{
+    color: #FFFFFF;
+    font-weight: 500;
     line-height: 1.5;
 }

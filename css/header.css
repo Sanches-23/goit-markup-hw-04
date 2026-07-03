@@ -1,5 +1,8 @@
 .header {
+    background-color: #FFFFFF;
     border-bottom: 1px solid #E7E9FC;
+    position: sticky;
+    top: 0;
 }
 
 .header-container {

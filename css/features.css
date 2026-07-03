@@ -12,14 +12,29 @@
 }
 
 .features-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     width: calc((100% - 3 * 24px) / 4);
+}
+
+.features-icon-box {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+}
+
+.features-icon {
+
 }
 
 .features-item-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    margin-bottom: 8px;
 }
 
 .features-item-desc {
