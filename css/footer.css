@@ -36,6 +36,10 @@
     line-height: 1.5;
 }
 
+.footer-socials-list{
+    gap: 16px;
+}
+
 .footer-socials-link:hover,
 .footer-socials-link:focus {
     background-color: #31D0AA;

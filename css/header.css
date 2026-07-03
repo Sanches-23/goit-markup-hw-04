@@ -40,14 +40,14 @@
     color: #404bbf;
 }
 
-.header-menu-link::after{
+.header-menu-link.active::after{
     content: "";
     display: inline-block;
     position: absolute;
-    bottom: 1px;
+    bottom: 0;
     left: 0;
-    background-color: #404BBF;
-    height: 2px;
+    background-color: #404bbf;
+    height: 4px;
     width: 100%;
     border-radius: 2px;
 }
