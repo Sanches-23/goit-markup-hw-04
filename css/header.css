@@ -40,7 +40,11 @@
     color: #404bbf;
 }
 
-.header-menu-link.active::after{
+.header-menu-link.active {
+    color: #404bbf
+}
+
+.header-menu-link.active::after {
     content: "";
     display: inline-block;
     position: absolute;
